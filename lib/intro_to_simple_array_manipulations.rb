@@ -22,7 +22,9 @@ end
 def using_insert(array, element)
   array.insert(4, element)  
 end
-
+def using_uniq(array)
+  array.uniq
+end
 
 nathan = [1, 2, 3]
 puts pop_with_args(nathan)
