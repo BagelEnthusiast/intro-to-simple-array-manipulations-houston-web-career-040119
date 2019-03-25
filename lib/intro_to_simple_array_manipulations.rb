@@ -17,4 +17,5 @@ def shift_with_args(array)
   array.shift(2)
 end
 
-
+nathan = [1, 2, 3]
+puts pop_with_args(nathan)
