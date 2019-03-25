@@ -28,6 +28,11 @@ end
 def using_flatten(array)
   array.flatten 
 end
+def using_delete(array, string)
+  array.delete(string)
+end
+
+
 
 nathan = [1, 2, 3]
 puts pop_with_args(nathan)
