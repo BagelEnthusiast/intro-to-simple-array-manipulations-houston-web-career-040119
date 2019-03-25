@@ -26,6 +26,8 @@ def using_uniq(array)
   array.uniq
 end
 def using_flatten(array)
+  array.flatten 
+end
 
 nathan = [1, 2, 3]
 puts pop_with_args(nathan)
